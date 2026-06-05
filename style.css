@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.photo-fon1{
+    width: 25%;
+    background-image: url(https://avatars.mds.yandex.net/i?id=6556fa52b46e9725690e5147e242172a_l-11385182-images-thumbs&n=13);
+ 
+}
+.photo-fon2{
+    background-image: url(https://avatars.mds.yandex.net/i?id=7ebe4c4a40635f4b24dbbf14c4882a10_l-9843912-images-thumbs&n=13);
+    background-size: cover;
+}
+.color-1-position{
+     position: absolute;
+  background: linear-gradient(
+    rgb(7, 7, 7), 
+    rgba(0, 0, 0, 0.577)
+  )
+}
+.input-1-color{
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.625), 
+    rgba(0, 0, 0, 0.41)
+  )
+}
+.ty{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+     transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
